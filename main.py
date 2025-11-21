@@ -5,7 +5,6 @@ BOT_TOKEN = ""
 import asyncio
 import logging
 from RateLimitMiddleware import RateLimitMiddleware
-import json
 
 from aiogram.client.default import DefaultBotProperties
 # import config
