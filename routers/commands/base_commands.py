@@ -25,7 +25,7 @@ async def handel_start(message: types.Message):
 async def new_fact(message: types.Message):
     try:
         async with aiofiles.open('loza.json', mode='r', encoding='utf-8') as f:
-            random_index = random.randint(0, 14)
+            random_index = random.randint(0, 33)
             contents = await f.read()
             data = json.loads(contents)
 
